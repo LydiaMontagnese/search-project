@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="img/ccsa-button.png"/>
+    <script type="text/javascript" src="js/search.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemoj Search</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+      <h1>Chemoj Search</h1>
+      <h2>powered by CCS Associates</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Search</a></li>
+          <li><a href="stacks.html">Stacks</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div id="wrapper">
+      <section>
+        <div class="input-group .col-md-4">
+          <div class="content" id="keyword">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon" id="sizing-addon1">Keyword</span>
+              <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+            </div>
+          </div>
+        </div>
+
+        <div class=".col-md-4">
+         <input type="button" id="more_fields" onclick="add_fields();" class="btn btn-primary search-button"value="Add Keyword" /><br></br> 
+        <input type="button" id="more_fields" onclick="add_fields();" class="btn btn-primary search-button"value="Search" />
+        </div>
+      </section>
+
+      <br></br>
+
+      <section>
+        <ul id="gallery">
+          <li>
+            <div id="img_container">
+            <a href="img/article1.jpg">
+              <img src="img/article1.jpg" alt="">
+              <p class="date">Jan 12, 2015</p>
+              <button class="add-button btn btn-success">+</button>
+             </a>
+             </div>
+          </li>
+          <li>
+            <div id="img_container">
+            <a href="img/article2.jpg">
+              <img src="img/article2.jpg" alt="">
+              <p class="date">Nov 12, 2013</p>
+              <button class="add-button btn btn-success">+</button>
+             </a>
+             </div>
+          </li>
+          <li>
+            <div id="img_container">
+            <a href="img/article3.jpg">
+              <img src="img/article3.jpg" alt="">
+              <p class="date">June 1, 2012</p>
+              <button class="add-button btn btn-success">+</button>
+             </a>
+          </li>
+          <li>
+            <div id="img_container">
+            <a href="img/article4.jpg">
+              <img src="img/article4.jpg" alt="">
+              <p class="date">Feb 26, 2011</p>
+              <button class="add-button btn btn-success">+</button>
+             </a>
+          </li>
+          <li>
+            <div id="img_container">
+            <a href="img/article5.jpg">
+              <img src="img/article5.jpg" alt="">
+              <p class="date">March 13, 1999</p>
+              <button class="add-button btn btn-success">+</button>
+             </a>
+          </li>
+        </ul>
+      </section>
+    <footer>
+      <a href="http://twitter.com/ccsainc"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+      <a href="http://facebook.com/ccsainc"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+      <p>&copy; 2016 CCS Associates, Inc.</p>
+    </footer>
+     </div>
+  </body>
+
+</html>
+
